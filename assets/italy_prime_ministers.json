@@ -1,0 +1,244 @@
+{
+  "presidenti": [
+    {
+      "name": "Alcide De Gasperi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Alcide_de_Gasperi_2.jpg",
+      "tookOffice": "13-07-1947",
+      "daysInOffice": 2590,
+      "party": "DC",
+      "govNum": 8
+    },
+    {
+      "name": "Giuseppe Pella",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Giuseppe_Pella_1963.jpg",
+      "tookOffice": "17-08-1953",
+      "daysInOffice": 155,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Amintore Fanfani",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Amintore_Fanfani_daticamera.jpg",
+      "tookOffice": "19-01-1954",
+      "daysInOffice": 1659,
+      "party": "DC",
+      "govNum": 6
+    },
+    {
+      "name": "Mario Scelba",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mario_Scelba_Official.jpeg",
+      "tookOffice": "10-02-1954",
+      "daysInOffice": 511,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Antonio Segni",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Antonio_Segni_Official.jpg",
+      "tookOffice": "6-7-1955",
+      "daysInOffice": 1087,
+      "party": "DC",
+      "govNum": 2
+    },
+    {
+      "name": "Adone Zoli",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Adone_Zoli.jpg",
+      "tookOffice": "20-5-1957",
+      "daysInOffice": 408,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Fernando Tambroni",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Fernando_Tambroni-1.jpg",
+      "tookOffice": "26-3-1960",
+      "daysInOffice": 123,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Giovanni Leone",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/73/Giovanni_Leone_1963.jpg",
+      "tookOffice": "22-6-1963",
+      "daysInOffice": 337,
+      "party": "DC",
+      "govNum": 2
+    },
+    {
+      "name": "Aldo Moro",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Aldo_Moro.jpg",
+      "tookOffice": "5-12-1963",
+      "daysInOffice": 2278,
+      "party": "DC",
+      "govNum": 5
+    },
+    {
+      "name": "Mariano Rumor",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mariano_Rumor_daticamera.jpg",
+      "tookOffice": "13-12-1968",
+      "daysInOffice": 1104,
+      "party": "DC",
+      "govNum": 5
+    },
+    {
+      "name": "Emilio Colombo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Emilio_Colombo_3.jpg",
+      "tookOffice": "6-8-1970",
+      "daysInOffice": 561,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Giulio Andreotti",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Giulio_Andreotti%2C_ca_1979.jpg",
+      "tookOffice": "18-2-1972",
+      "daysInOffice": 2674,
+      "party": "DC",
+      "govNum": 7
+    },
+    {
+      "name": "Francesco Cossiga",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Francesco_Cossiga_1979.jpg",
+      "tookOffice": "5-8-1979",
+      "daysInOffice": 439,
+      "party": "DC",
+      "govNum": 2
+    },
+    {
+      "name": "Arnaldo Forlani",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/43/Arnaldo_Forlani_1979.jpg",
+      "tookOffice": "18-10-1980",
+      "daysInOffice": 253,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Giovanni Spadolini",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Giovanni_Spadolini_2.jpg",
+      "tookOffice": "28-6-1981",
+      "daysInOffice": 521,
+      "party": "PRI",
+      "govNum": 2
+    },
+    {
+      "name": "Bettino Craxi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Bettino_Craxi_Official_Portrait.jpg",
+      "tookOffice": "4-8-1983",
+      "daysInOffice": 1352,
+      "party": "PSI",
+      "govNum": 2
+    },
+    {
+      "name": "Giovanni Goria",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Giovanni_Goria_2.jpg",
+      "tookOffice": "29-7-1987",
+      "daysInOffice": 259,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Ciriaco De Mita",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Ciriaco_De_Mita_%28X%29.jpg",
+      "tookOffice": "13-4-1988",
+      "daysInOffice": 466,
+      "party": "DC",
+      "govNum": 1
+    },
+    {
+      "name": "Giuliano Amato",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Giuliano_Amato_in_1992.jpg",
+      "tookOffice": "28-6-1992",
+      "daysInOffice": 305,
+      "party": "PSI",
+      "govNum": 2
+    },
+    {
+      "name": "Carlo Azeglio Ciampi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Carlo_Azeglio_Ciampi_cropped_%281991%29.jpg",
+      "tookOffice": "29-4-1993",
+      "daysInOffice": 377,
+      "party": "Indipendent",
+      "govNum": 1
+    },
+    {
+      "name": "Silvio Berlusconi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Berlusconi-2010-1.jpg",
+      "tookOffice": "11-5-1994",
+      "daysInOffice": 3338,
+      "party": "FI",
+      "govNum": 4
+    },
+    {
+      "name": "Lamberto Dini",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Lamberto_Dini_1996.jpg",
+      "tookOffice": "17-1-1995",
+      "daysInOffice": 487,
+      "party": "Indipendent",
+      "govNum": 1
+    },
+    {
+      "name": "Romano Prodi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Romano_Prodi_96.jpg",
+      "tookOffice": "18-5-1996",
+      "daysInOffice": 1608,
+      "party": "The Olive Tree",
+      "govNum": 2
+    },
+    {
+      "name": "Massimo D'Alema",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Massimo_D%27Alema_1996.jpg",
+      "tookOffice": "21-10-1998",
+      "daysInOffice": 553,
+      "party": "The Olive Tree",
+      "govNum": 2
+    },
+    {
+      "name": "Mario Monti",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/94/Mario_Monti_Senato_2011.jpg",
+      "tookOffice": "16-11-2011",
+      "daysInOffice": 528,
+      "party": "Indipentent",
+      "govNum": 1
+    },
+    {
+      "name": "Enrico Letta",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Enrico_Letta_daticamera.jpg",
+      "tookOffice": "28-4-2013",
+      "daysInOffice": 300,
+      "party": "PD",
+      "govNum": 1
+    },
+    {
+      "name": "Matteo Renzi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/MatteoRenzi2018_%28cropped%29.jpg",
+      "tookOffice": "22-2-2014",
+      "daysInOffice": 1024,
+      "party": "PD",
+      "govNum": 1
+    },
+    {
+      "name": "Paolo Gentiloni",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/Paolo_Gentiloni_daticamera_2018.jpg",
+      "tookOffice": "12-12-2016",
+      "daysInOffice": 536,
+      "party": "PD",
+      "govNum": 1
+    },
+    {
+      "name": "Giuseppe Conte",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Giuseppe_Conte_Official_%28cropped%29.jpg",
+      "tookOffice": "1-6-2018",
+      "daysInOffice": 987,
+      "party": "M5S",
+      "govNum": 2
+    },
+    {
+      "name": "Mario Draghi",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mario_Draghi_2021_cropped.jpg",
+      "tookOffice": "13-2-2021",
+      "daysInOffice": 252,
+      "party": "Indipendent",
+      "govNum": 1
+    }
+  ]
+}
