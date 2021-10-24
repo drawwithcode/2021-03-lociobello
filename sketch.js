@@ -9,7 +9,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(255);
+  // background(255);
 
   let presidenti = data.presidenti;
 
@@ -23,14 +23,13 @@ function setup() {
     push();
     angleMode(DEGREES);
     rotate(90);
-    translate(height / 2, -(offset * i + 5));
+    translate(height / 2, -(offset * i + 7));
     fill(0);
     textSize(20);
     textFont(monumentGrotesk);
     text(name, 0, 0);
     text(partito, height / 4, 0);
     text("X " + ngoverni, height / 2.3, 0);
-
     pop();
   }
 }
@@ -58,4 +57,8 @@ function draw() {
     rect(0, 0, width, height);
     pop();
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
