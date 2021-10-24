@@ -24,12 +24,13 @@ function draw() {
     const partito = presidente.party;
     const ngoverni = presidente.govNum;
 
+    //le foto sono recuperate da URL all'interno del JSON
     let img = createImg(foto);
     img.hide();
 
     push();
     translate(offset * i, 0);
-    //foto
+    //la dimensione della foto è proporzionata al numero di giorni che ha trascorso come capo del governo
     image(img, 0, 0, size / 10, size / 7.5);
     //cornice
     noFill();
@@ -38,6 +39,7 @@ function draw() {
     rect(0, 0, width, height);
     pop();
 
+    //testi
     push();
     angleMode(DEGREES);
     rotate(90);
