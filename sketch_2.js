@@ -1,15 +1,17 @@
 let data;
 let monumentGrotesk;
 
+let analyser;
+
 let renzi;
 let craxi;
 let berlusconi;
 let andreotti;
 
-renziFill = 255;
-craxiFill = 255;
-berlusconiFill = 255;
-andreottiFill = 255;
+renziFill = 0;
+craxiFill = 0;
+berlusconiFill = 0;
+andreottiFill = 0;
 
 function preload() {
   data = loadJSON("assets/italy_prime_ministers.json");
@@ -22,6 +24,20 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+
+  analyser_craxi = new p5.Amplitude();
+  analyser_craxi.setInput(craxi);
+
+  analyser_renzi = new p5.Amplitude();
+  analyser_renzi.setInput(renzi);
+
+  analyser_berlusconi = new p5.Amplitude();
+  analyser_berlusconi.setInput(berlusconi);
+
+  analyser_andreotti = new p5.Amplitude();
+  analyser_andreotti.setInput(andreotti);
+
+  frameRate(240);
 }
 
 function draw() {
@@ -67,48 +83,102 @@ function draw() {
     pop();
   }
 
+  let volume_craxi = analyser_craxi.getLevel();
+  volume_craxi = map(volume_craxi, 0, 0.4, height / 2, 0);
+
+  let volume_renzi = analyser_renzi.getLevel();
+  volume_renzi = map(volume_renzi, 0, 1, height / 2, 0);
+
+  let volume_berlusconi = analyser_berlusconi.getLevel();
+  volume_berlusconi = map(volume_berlusconi, 0, 0.3, height / 2, 0);
+
+  let volume_andreotti = analyser_andreotti.getLevel();
+  volume_andreotti = map(volume_andreotti, 0, 0.4, height / 2, 0);
+
+  //barre parameters
+  craxi_x1 = (width / 30) * 15;
+  craxi_x2 = (width / 30) * 16;
+
+  // if (mouseX > craxi_x1 && mouseX < craxi_x2) {
+  //   push();
+  //   rectMode(CORNERS);
+  //   fill("red");
+  //   rect(craxi_x1, height, craxi_x2, volume * craxi_height);
+  //   pop();
+  // } else {
+  //   craxi_height = 0;
+  // }
+
   //audio renzi
   if (mouseX > (width / 30) * 26 && mouseX < (width / 30) * 27) {
+    push();
+    blendMode(DIFFERENCE);
+    noStroke();
+    rectMode(CORNERS);
+    fill("white");
+    rect((width / 30) * 26, height, (width / 30) * 27, volume_renzi);
+    pop();
     if (renzi.isPlaying() == false) {
       renzi.play();
       renziFill = 0;
     }
   } else {
     renzi.stop();
-    renziFill = 255;
+    renziFill = 0;
   }
 
   //audio craxi
-  if (mouseX > (width / 30) * 15 && mouseX < (width / 30) * 16) {
+  if (mouseX > craxi_x1 && mouseX < craxi_x2) {
+    push();
+    blendMode(DIFFERENCE);
+    noStroke();
+    rectMode(CORNERS);
+    fill(255);
+    rect(craxi_x1, height, craxi_x2, volume_craxi);
+    pop();
     if (craxi.isPlaying() == false) {
       craxi.play();
       craxiFill = 0;
     }
   } else {
     craxi.stop();
-    craxiFill = 255;
+    craxiFill = 0;
   }
 
   //audio berlusconi
   if (mouseX > (width / 30) * 20 && mouseX < (width / 30) * 21) {
+    push();
+    blendMode(DIFFERENCE);
+    noStroke();
+    rectMode(CORNERS);
+    fill("white");
+    rect((width / 30) * 20, height, (width / 30) * 21, volume_berlusconi);
+    pop();
     if (berlusconi.isPlaying() == false) {
       berlusconi.play();
       berlusconiFill = 0;
     }
   } else {
     berlusconi.stop();
-    berlusconiFill = 255;
+    berlusconiFill = 0;
   }
 
   //audio andreotti
   if (mouseX > (width / 30) * 11 && mouseX < (width / 30) * 12) {
+    push();
+    blendMode(DIFFERENCE);
+    noStroke();
+    rectMode(CORNERS);
+    fill("white");
+    rect((width / 30) * 11, height, (width / 30) * 12, volume_andreotti);
+    pop();
     if (andreotti.isPlaying() == false) {
       andreotti.play();
       andreottiFill = 0;
     }
   } else {
     andreotti.stop();
-    andreottiFill = 255;
+    andreottiFill = 0;
   }
 
   fill(renziFill);
