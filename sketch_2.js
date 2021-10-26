@@ -99,15 +99,7 @@ function draw() {
   craxi_x1 = (width / 30) * 15;
   craxi_x2 = (width / 30) * 16;
 
-  // if (mouseX > craxi_x1 && mouseX < craxi_x2) {
-  //   push();
-  //   rectMode(CORNERS);
-  //   fill("red");
-  //   rect(craxi_x1, height, craxi_x2, volume * craxi_height);
-  //   pop();
-  // } else {
-  //   craxi_height = 0;
-  // }
+  //se il mouse è nella zona giusta, verrà riprodotto l'audio associato ed una barra seguirà l'andamento del volume.
 
   //audio renzi
   if (mouseX > (width / 30) * 26 && mouseX < (width / 30) * 27) {
@@ -189,15 +181,6 @@ function draw() {
   circle((width / 30) * 20 + 12, height - 16, 12);
   fill(andreottiFill);
   circle((width / 30) * 11 + 12, height - 16, 12);
-
-  // if (mouseX > width / 30 && mouseX < (width / 30) * 2) {
-  //   push();
-  //   blendMode(MULTIPLY);
-  //   noStroke();
-  //   fill("red");
-  //   rect(width / 30, 0, width / 30, height);
-  //   pop();
-  // }
 }
 
 function windowResized() {
