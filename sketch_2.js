@@ -13,6 +13,8 @@ craxiFill = 0;
 berlusconiFill = 0;
 andreottiFill = 0;
 
+let giorniDraghi;
+
 function preload() {
   data = loadJSON("assets/italy_prime_ministers.json");
   monumentGrotesk = loadFont("assets/MonumentGrotesk-Regular.ttf");
@@ -38,6 +40,8 @@ function setup() {
   analyser_andreotti.setInput(andreotti);
 
   frameRate(240);
+
+  calcolaGiorniDraghi();
 }
 
 function draw() {
@@ -185,4 +189,14 @@ function draw() {
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+}
+
+function calcolaGiorniDraghi() {
+  let dateBegin = new Date("02/13/2021");
+  let dateNow = new Date();
+
+  let difference = dateNow.getTime() - dateBegin.getTime();
+
+  let draghiDays = Math.ceil(difference / (1000 * 3600 * 24));
+  console.log("Giorni Draghi: " + draghiDays);
 }
