@@ -1,0 +1,69 @@
+{
+  "presidenti": [
+    {
+      "name": "Charles de Gaulle",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Bundesarchiv_B_145_Bild-F015892-0010%2C_Charles_de_Gaulle_%28cropped_2%29.jpg",
+      "tookOffice": "08-01-1959",
+      "daysInOffice": 3760,
+      "party": "UNR",
+      "govNum": 2
+    },
+    {
+      "name": "Georges Pompidou",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Georges_Pompidou_1969_%28cropped%29.jpg",
+      "tookOffice": "20-06-1969",
+      "daysInOffice": 1746,
+      "party": "UDR",
+      "govNum": 1
+    },
+    {
+      "name": "Valéry Giscard d'Estaing",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Val%C3%A9ry_Giscard_d%27Estaing_%281975%29.jpg",
+      "tookOffice": "19-01-1954",
+      "daysInOffice": 2549,
+      "party": "IR",
+      "govNum": 1
+    },
+    {
+      "name": "François Mitterrand",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3c/President_Fran%C3%A7ois_Mitterrand_in_1983.jpg",
+      "tookOffice": "21-05-1981",
+      "daysInOffice": 5106,
+      "party": "PS",
+      "govNum": 2
+    },
+    {
+      "name": "Jacques Chirac",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Jacques_Chirac_%281997%29_%28cropped%29.jpg",
+      "tookOffice": "17-05-1995",
+      "daysInOffice": 4379,
+      "party": "RPR",
+      "govNum": 2
+    },
+    {
+      "name": "Nicolas Sarkozy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Nicolas_Sarkozy_in_2010.jpg",
+      "tookOffice": "16-5-2007",
+      "daysInOffice": 1825,
+      "party": "UMP",
+      "govNum": 1
+    },
+    {
+      "name": "François Hollande",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Fran%C3%A7ois_Hollande_-_2017_%2827869823159%29_%28cropped_2%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1824,
+      "party": "PS",
+      "govNum": 1
+    },
+    {
+      "name": "Emmanuel Macron",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/%D0%97%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87_%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8_%D0%B7_%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0%D0%BC%D0%B8_%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D1%96%D1%97_%D1%82%D0%B0_%D0%A0%D1%83%D0%BC%D1%83%D0%BD%D1%96%D1%97%2C_%D0%B0_%D1%82%D0%B0%D0%BA%D0%BE%D0%B6_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0%D0%BC%D0%B8_%D1%83%D1%80%D1%8F%D0%B4%D1%96%D0%B2_%D0%9D%D1%96%D0%BC%D0%B5%D1%87%D1%87%D0%B8%D0%BD%D0%B8_%D1%82%D0%B0_%D0%86%D1%82%D0%B0%D0%BB%D1%96%D1%97_76_%28cropped%29.jpg",
+      "tookOffice": "14-5-2017",
+      "daysInOffice": 1889,
+      "party": "REM",
+      "govNum": 2
+    }
+    
+  ]
+}

@@ -1,3 +1,9 @@
+@font-face {
+  font-family: monument;
+  src: url(assets/MonumentGrotesk-Regular.ttf);
+}
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -6,3 +12,10 @@ html, body {
 canvas {
   display: block;
 }
+
+#countriesList{
+  margin: 20px;
+  /* line-height: 26px; */
+  font-family: monument;
+}
+

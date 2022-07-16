@@ -1,0 +1,117 @@
+{
+  "presidenti": [
+    {
+      "name": "Winston Churchill",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sir_Winston_Churchill_%28cropped%29.jpg",
+      "tookOffice": "08-01-1959",
+      "daysInOffice": 1257,
+      "party": "Conservative",
+      "govNum": 1
+    },
+    {
+      "name": "Anthony Eden",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Eden%2C_Anthony_%28cropped%29.jpg",
+      "tookOffice": "20-06-1969",
+      "daysInOffice": 644,
+      "party": "Conservative",
+      "govNum": 1
+    },
+    {
+      "name": "Harold Macmillan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Harold_Macmillan_in_1961_%28cropped%29.jpg",
+      "tookOffice": "19-01-1954",
+      "daysInOffice": 2472,
+      "party": "Conservative",
+      "govNum": 2
+    },
+    {
+      "name": "Alec Douglas-Home",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Alec_Douglas-Home_%28c1963%29_%28cropped%29.jpg",
+      "tookOffice": "21-05-1981",
+      "daysInOffice": 364,
+      "party": "Conservative",
+      "govNum": 1
+    },
+    {
+      "name": "Harold Wilson",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Harold_Wilson.jpg",
+      "tookOffice": "17-05-1995",
+      "daysInOffice": 2835,
+      "party": "Labour",
+      "govNum": 4
+    },
+    {
+      "name": "Edward Heath",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Golda_Meir_and_Edward_Heath_cropped_%28cropped%29.jpg",
+      "tookOffice": "16-5-2007",
+      "daysInOffice": 1354,
+      "party": "Conservative",
+      "govNum": 1
+    },
+    {
+      "name": "James Callaghan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/Persconferentie_na_afloop_Overleg_van_de_9_%2C_Den_Haag_Callaghan_%28oa_met_Enge%2C_Bestanddeelnr_928-9157_%28crop%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1125,
+      "party": "Labour",
+      "govNum": 1
+    },
+    {
+      "name": "Margaret Thatcher",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Margaret_Thatcher_%281983%29.jpg",
+      "tookOffice": "14-5-2017",
+      "daysInOffice": 4224,
+      "party": "Conservative",
+      "govNum": 3
+    },
+    {
+      "name": "John Major",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/John_Major_1996.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 2346,
+      "party": "Conservative",
+      "govNum": 2
+    },
+    {
+      "name": "Tony Blair",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tony_Blair_in_2002.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 3707,
+      "party": "Labour",
+      "govNum": 3
+    },
+    {
+      "name": "Gordon Brown",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Gordon_Brown_official_%28cropped_2%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1049,
+      "party": "Labour",
+      "govNum": 1
+    },
+    {
+      "name": "David Cameron",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/93/David_Cameron_official_%28cropped%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 2254,
+      "party": "Conservative",
+      "govNum": 2
+    },
+    {
+      "name": "Theresa May",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Theresa_May_Official_%28cropped%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1107,
+      "party": "Conservative",
+      "govNum": 2
+    },
+    {
+      "name": "Boris Johnson",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Boris_Johnson_election_infobox.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1088,
+      "party": "Conservative",
+      "govNum": 2
+    }
+    
+  ]
+}
