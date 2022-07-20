@@ -15,7 +15,7 @@ andreottiFill = 0;
 
 
 function preload() {
-  data = loadJSON("assets/france_prime_ministers.json");
+  data = loadJSON("assets/usa_prime_ministers.json");
   monumentGrotesk = loadFont("assets/MonumentGrotesk-Regular.ttf");
 }
 
@@ -58,7 +58,6 @@ function draw() {
 
     //testi
     push();
-    // blendMode(EXCLUSION);
     angleMode(DEGREES);
     rotate(90);
     translate(height / 2, -(offset * i + 7));

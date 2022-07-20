@@ -1,0 +1,117 @@
+{
+  "presidenti": [
+    {
+      "name": "Harry S. Truman",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/TRUMAN_58-766-06_%28cropped%29.jpg",
+      "tookOffice": "08-01-1959",
+      "daysInOffice": 2840,
+      "party": "Democratic",
+      "govNum": 2
+    },
+    {
+      "name": "Dwight D. Eisenhower",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959.jpg",
+      "tookOffice": "20-06-1969",
+      "daysInOffice": 2922,
+      "party": "Republican",
+      "govNum": 2
+    },
+    {
+      "name": "John F. Kennedy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg",
+      "tookOffice": "19-01-1954",
+      "daysInOffice": 1036,
+      "party": "Democratic",
+      "govNum": 1
+    },
+    {
+      "name": "Lyndon B. Johnson",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/37_Lyndon_Johnson_3x4.jpg",
+      "tookOffice": "21-05-1981",
+      "daysInOffice": 1886,
+      "party": "Democratic",
+      "govNum": 2
+    },
+    {
+      "name": "Richard Nixon",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Richard_Nixon_presidential_portrait_%281%29.jpg",
+      "tookOffice": "17-05-1995",
+      "daysInOffice": 2027,
+      "party": "Republican",
+      "govNum": 2
+    },
+    {
+      "name": "Gerald Ford",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Gerald_Ford_presidential_portrait.jpg",
+      "tookOffice": "16-5-2007",
+      "daysInOffice": 895,
+      "party": "Republican",
+      "govNum": 1
+    },
+    {
+      "name": "Jimmy Carter",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/JimmyCarterPortrait2.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1461,
+      "party": "Democratic",
+      "govNum": 1
+    },
+    {
+      "name": "Ronald Reagan",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Official_Portrait_of_President_Reagan_1981.jpg",
+      "tookOffice": "14-5-2017",
+      "daysInOffice": 2922,
+      "party": "Republican",
+      "govNum": 2
+    },
+    {
+      "name": "George H. W. Bush",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/George_H._W._Bush_presidential_portrait_%28cropped%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1461,
+      "party": "Republican",
+      "govNum": 1
+    },
+    {
+      "name": "Bill Clinton",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bill_Clinton.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 2922,
+      "party": "Democratic",
+      "govNum": 2
+    },
+    {
+      "name": "George W. Bush",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 2922,
+      "party": "Republican",
+      "govNum": 2
+    },
+    {
+      "name": "Barack Obama",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Official_portrait_of_Barack_Obama.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 2922,
+      "party": "Democratic",
+      "govNum": 2
+    },
+    {
+      "name": "Donald Trump",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1461,
+      "party": "Republican",
+      "govNum": 1
+    },
+    {
+      "name": "Joe Biden",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Joe_Biden_presidential_portrait.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 1461,
+      "party": "Democratic",
+      "govNum": 1
+    }
+    
+  ]
+}
