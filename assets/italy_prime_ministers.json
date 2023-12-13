@@ -236,8 +236,16 @@
       "name": "Mario Draghi",
       "image": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mario_Draghi_2021_cropped.jpg",
       "tookOffice": "13-2-2021",
-      "daysInOffice": 530,
+      "daysInOffice": 616,
       "party": "Indipendent",
+      "govNum": 1
+    },
+    {
+      "name": "Giorgia Meloni",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Giorgia_Meloni_Official_2023_%28cropped%29.jpg",
+      "tookOffice": "22-10-2022",
+      "daysInOffice": 418,
+      "party": "FDI",
       "govNum": 1
     }
   ]

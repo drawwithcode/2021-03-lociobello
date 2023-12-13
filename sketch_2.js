@@ -99,19 +99,19 @@ function draw() {
   volume_andreotti = map(volume_andreotti, 0, 0.4, height / 2, 0);
 
   //barre parameters
-  craxi_x1 = (width / 30) * 15;
-  craxi_x2 = (width / 30) * 16;
+  craxi_x1 = (width / 31) * 15;
+  craxi_x2 = (width / 31) * 16;
 
   //se il mouse è nella zona giusta, verrà riprodotto l'audio associato ed una barra seguirà l'andamento del volume.
 
   //audio renzi
-  if (mouseX > (width / 30) * 26 && mouseX < (width / 30) * 27) {
+  if (mouseX > (width / 31) * 26 && mouseX < (width / 31) * 27) {
     push();
     blendMode(DIFFERENCE);
     noStroke();
     rectMode(CORNERS);
     fill("white");
-    rect((width / 30) * 26, height, (width / 30) * 27, volume_renzi);
+    rect((width / 31) * 26, height, (width / 31) * 27, volume_renzi);
     pop();
     if (renzi.isPlaying() == false) {
       renzi.play();
@@ -141,13 +141,13 @@ function draw() {
   }
 
   //audio berlusconi
-  if (mouseX > (width / 30) * 20 && mouseX < (width / 30) * 21) {
+  if (mouseX > (width / 31) * 20 && mouseX < (width / 31) * 21) {
     push();
     blendMode(DIFFERENCE);
     noStroke();
     rectMode(CORNERS);
     fill("white");
-    rect((width / 30) * 20, height, (width / 30) * 21, volume_berlusconi);
+    rect((width / 31) * 20, height, (width / 31) * 21, volume_berlusconi);
     pop();
     if (berlusconi.isPlaying() == false) {
       berlusconi.play();
@@ -159,13 +159,13 @@ function draw() {
   }
 
   //audio andreotti
-  if (mouseX > (width / 30) * 11 && mouseX < (width / 30) * 12) {
+  if (mouseX > (width / 31) * 11 && mouseX < (width / 31) * 12) {
     push();
     blendMode(DIFFERENCE);
     noStroke();
     rectMode(CORNERS);
     fill("white");
-    rect((width / 30) * 11, height, (width / 30) * 12, volume_andreotti);
+    rect((width / 31) * 11, height, (width / 31) * 12, volume_andreotti);
     pop();
     if (andreotti.isPlaying() == false) {
       andreotti.play();
@@ -177,13 +177,13 @@ function draw() {
   }
 
   fill(renziFill);
-  circle((width / 30) * 26 + 12, height - 16, 12);
+  circle((width / 31) * 26 + 12, height - 16, 12);
   fill(craxiFill);
-  circle((width / 30) * 15 + 12, height - 16, 12);
+  circle((width / 31) * 15 + 12, height - 16, 12);
   fill(berlusconiFill);
-  circle((width / 30) * 20 + 12, height - 16, 12);
+  circle((width / 31) * 20 + 12, height - 16, 12);
   fill(andreottiFill);
-  circle((width / 30) * 11 + 12, height - 16, 12);
+  circle((width / 31) * 11 + 12, height - 16, 12);
 }
 
 function windowResized() {

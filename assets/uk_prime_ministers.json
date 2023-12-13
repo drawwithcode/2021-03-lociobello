@@ -111,6 +111,22 @@
       "daysInOffice": 1088,
       "party": "Conservative",
       "govNum": 2
+    },
+    {
+      "name": "Liz Truss",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Liz_Truss_official_portrait.jpg/171px-Liz_Truss_official_portrait.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 45,
+      "party": "Conservative",
+      "govNum": 1
+    },
+    {
+      "name": "Rishi Sunak",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Official_Portrait_of_Prime_Minister_Rishi_Sunak_%28crop_with_flag%29.jpg",
+      "tookOffice": "15-5-2012",
+      "daysInOffice": 415,
+      "party": "Conservative",
+      "govNum": 1
     }
     
   ]
