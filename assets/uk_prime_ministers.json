@@ -116,7 +116,7 @@
       "name": "Liz Truss",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Liz_Truss_official_portrait.jpg/171px-Liz_Truss_official_portrait.jpg",
       "tookOffice": "15-5-2012",
-      "daysInOffice": 45,
+      "daysInOffice": 50,
       "party": "Conservative",
       "govNum": 1
     },
@@ -124,10 +124,17 @@
       "name": "Rishi Sunak",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Official_Portrait_of_Prime_Minister_Rishi_Sunak_%28crop_with_flag%29.jpg",
       "tookOffice": "15-5-2012",
-      "daysInOffice": 415,
+      "daysInOffice": 619,
       "party": "Conservative",
       "govNum": 1
+    },
+    {
+      "name": "Keir Starmer",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Prime_Minister_Keir_Starmer_Portrait_%28cropped%29.jpg/800px-Prime_Minister_Keir_Starmer_Portrait_%28cropped%29.jpg",
+      "tookOffice": "5-7-2024",
+      "daysInOffice": 121,
+      "party": "Labour",
+      "govNum": 1
     }
-    
   ]
 }
