@@ -107,11 +107,10 @@
     {
       "name": "Joe Biden",
       "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Joe_Biden_presidential_portrait.jpg",
-      "tookOffice": "15-5-2012",
+      "tookOffice": "20-1-2021",
       "daysInOffice": 1461,
       "party": "Democratic",
       "govNum": 1
     }
-    
   ]
 }

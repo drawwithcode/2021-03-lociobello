@@ -13,7 +13,6 @@ craxiFill = 0;
 berlusconiFill = 0;
 andreottiFill = 0;
 
-
 function preload() {
   data = loadJSON("assets/france_prime_ministers.json");
   monumentGrotesk = loadFont("assets/MonumentGrotesk-Regular.ttf");
@@ -22,24 +21,30 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-
   frameRate(240);
-
 }
 
 function draw() {
   background(255);
 
   let presidenti = data.presidenti;
+  let today = new Date();
 
   for (let i = 0; i < presidenti.length; i++) {
     const presidente = presidenti[i];
     const name = presidente.name;
-    const size = presidente.daysInOffice;
+    let size = presidente.daysInOffice;
     const offset = width / presidenti.length;
     const foto = presidente.image;
     const partito = presidente.party;
     const ngoverni = presidente.govNum;
+
+    // Calculate days in office for the current president
+    if (i === presidenti.length - 1) {
+      const tookOfficeDate = new Date(presidente.tookOffice.split("-").reverse().join("-"));
+      const diffTime = Math.abs(today - tookOfficeDate);
+      size = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    }
 
     //le foto sono recuperate da URL all'interno del JSON
     let img = createImg(foto);
@@ -70,7 +75,6 @@ function draw() {
     text("X " + ngoverni, height / 2.4, 0);
     pop();
   }
-
 }
 
 function windowResized() {
