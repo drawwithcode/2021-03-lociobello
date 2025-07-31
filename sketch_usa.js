@@ -30,20 +30,31 @@ function draw() {
   let presidenti = data.presidenti;
   let today = new Date();
 
+  // Set the current president's name here
+  const currentPresidentName = "Donald Trump"; // Change as needed
+
   for (let i = 0; i < presidenti.length; i++) {
     const presidente = presidenti[i];
     const name = presidente.name;
-    let size = presidente.daysInOffice;
     const offset = width / presidenti.length;
     const foto = presidente.image;
     const partito = presidente.party;
     const ngoverni = presidente.govNum;
 
-    // Calculate days in office for the current president
-    if (i === presidenti.length - 1) {
-      const tookOfficeDate = new Date(presidente.tookOffice.split("-").reverse().join("-"));
-      const diffTime = Math.abs(today - tookOfficeDate);
-      size = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    // Calculate total days in office using terms array
+    let size = 0;
+    if (Array.isArray(presidente.terms)) {
+      for (const term of presidente.terms) {
+        const tookOfficeDate = new Date(term.tookOffice.split("-").reverse().join("-"));
+        let leftOfficeDate;
+        if (term.leftOffice) {
+          leftOfficeDate = new Date(term.leftOffice.split("-").reverse().join("-"));
+        } else {
+          leftOfficeDate = today;
+        }
+        const diffTime = Math.abs(leftOfficeDate - tookOfficeDate);
+        size += Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+      }
     }
 
     //le foto sono recuperate da URL all'interno del JSON
