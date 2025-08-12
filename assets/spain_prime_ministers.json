@@ -1,0 +1,53 @@
+{
+  "presidenti": [
+    {
+      "name": "Adolfo Suárez",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Adolfo_Su%C3%A1rez_1980_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "05-07-1976", "leftOffice": "29-01-1981" }],
+      "party": "UCD",
+      "govNum": 3
+    },
+    {
+      "name": "Leopoldo Calvo-Sotelo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Leopoldo_Calvo-Sotelo_1978_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "25-02-1981", "leftOffice": "01-12-1982" }],
+      "party": "UCD",
+      "govNum": 1
+    },
+    {
+      "name": "Felipe González",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Felipe_Gonz%C3%A1lez_1991_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "02-12-1982", "leftOffice": "05-05-1996" }],
+      "party": "PSOE",
+      "govNum": 4
+    },
+    {
+      "name": "José María Aznar",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/55/Jos%C3%A9_Mar%C3%ADa_Aznar_2003d_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "05-05-1996", "leftOffice": "17-04-2004" }],
+      "party": "PP",
+      "govNum": 2
+    },
+    {
+      "name": "José Luis Rodríguez Zapatero",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jos%C3%A9_Luis_Rodr%C3%ADguez_Zapatero_2011c_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "17-04-2004", "leftOffice": "21-12-2011" }],
+      "party": "PSOE",
+      "govNum": 2
+    },
+    {
+      "name": "Mariano Rajoy",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Mariano_Rajoy_2018b_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "21-12-2011", "leftOffice": "02-06-2018" }],
+      "party": "PP",
+      "govNum": 2
+    },
+    {
+      "name": "Pedro Sánchez",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Pedro_S%C3%A1nchez_2024_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "02-06-2018", "leftOffice": null }],
+      "party": "PSOE",
+      "govNum": 3
+    }
+  ]
+}

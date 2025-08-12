@@ -1,0 +1,74 @@
+{
+  "presidenti": [
+    {
+      "name": "Konrad Adenauer",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Adenauer_Bouserath3.jpg/500px-Adenauer_Bouserath3.jpg",
+      "terms": [{ "tookOffice": "15-09-1949", "leftOffice": "16-10-1963" }],
+      "party": "CDU",
+      "govNum": 5
+    },
+    {
+      "name": "Ludwig Erhard",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Einde_bezoek_bondskanselier_dr_Ludwig_Erhard_en_gaf_persconferentie_in_het_Haag%2C_Bestanddeelnr_916-1330.jpg/330px-Einde_bezoek_bondskanselier_dr_Ludwig_Erhard_en_gaf_persconferentie_in_het_Haag%2C_Bestanddeelnr_916-1330.jpg",
+      "terms": [{ "tookOffice": "16-10-1963", "leftOffice": "01-12-1966" }],
+      "party": "CDU",
+      "govNum": 2
+    },
+    {
+      "name": "Kurt Georg Kiesinger",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Kurt_Georg_Kiesinger.jpg/500px-Kurt_Georg_Kiesinger.jpg",
+      "terms": [{ "tookOffice": "01-12-1966", "leftOffice": "21-10-1969" }],
+      "party": "CDU",
+      "govNum": 1
+    },
+    {
+      "name": "Willy Brandt",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Willy_Brandt01.jpg/500px-Willy_Brandt01.jpg",
+      "terms": [{ "tookOffice": "21-10-1969", "leftOffice": "07-05-1974" }],
+      "party": "SPD",
+      "govNum": 2
+    },
+    {
+      "name": "Helmut Schmidt",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bundeskanzler_Helmut_Schmidt_%281%29.jpg/500px-Bundeskanzler_Helmut_Schmidt_%281%29.jpg",
+      "terms": [{ "tookOffice": "16-05-1974", "leftOffice": "01-10-1982" }],
+      "party": "SPD",
+      "govNum": 2
+    },
+    {
+      "name": "Helmut Kohl",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Helmut_Kohl_%281996%29.png/500px-Helmut_Kohl_%281996%29.png",
+      "terms": [{ "tookOffice": "01-10-1982", "leftOffice": "27-10-1998" }],
+      "party": "CDU",
+      "govNum": 6
+    },
+    {
+      "name": "Gerhard Schröder",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Gerhard_Schr%C3%B6der_profile_2014.jpg/500px-Gerhard_Schr%C3%B6der_profile_2014.jpg",
+      "terms": [{ "tookOffice": "27-10-1998", "leftOffice": "22-11-2005" }],
+      "party": "SPD",
+      "govNum": 2
+    },
+    {
+      "name": "Angela Merkel",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Angela_Merkel_2019_cropped.jpg/500px-Angela_Merkel_2019_cropped.jpg",
+      "terms": [{ "tookOffice": "22-11-2005", "leftOffice": "08-12-2021" }],
+      "party": "CDU",
+      "govNum": 4
+    },
+    {
+      "name": "Olaf Scholz",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Olaf_Scholz_September_2024.jpg/500px-Olaf_Scholz_September_2024.jpg",
+      "terms": [{ "tookOffice": "08-12-2021", "leftOffice": "06-05-2025" }],
+      "party": "SPD",
+      "govNum": 1
+    },
+    {
+      "name": "Freidrich Merz",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%28cropped%29.jpg/500px-2024-08-21_Event%2C_CDU%2C_Wahlkampf_mit_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_%28cropped%29.jpg",
+      "terms": [{ "tookOffice": "06-05-2025", "leftOffice": null }],
+      "party": "CDU",
+      "govNum": 1
+    }
+  ]
+}
